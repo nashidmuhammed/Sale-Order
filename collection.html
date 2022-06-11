@@ -33,51 +33,13 @@
                   </div>
             </form>
           </nav>
-    </section>
+    </section><br>
 
-    <section>
-        <div class="container ">
-            <div class="info_box">
-                <div class="box p_order">
-                    <a href="./orders.html"><h4>15</h4>
-                    <p>Pending Orders</p></a>
-                </div>
-                <div class="box">
-                    <a href="./collection.html"><h4>₹ 25,600</h4>
-                    <p>Today's Collection</p></a>
-                </div>
-            </div>
-
-            <!--
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card text-white bg-info mb-3" >
-                        <div class="card-body">
-                          <h5 class="card-title">13</h5>
-                          <p class="card-text">Pending Orders</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card text-white bg-secondary mb-3">
-                        <div class="card-body">
-                          <h5 class="card-title">₹ 10,25,200</h5>
-                          <p class="card-text">Amount</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card text-white bg-success mb-3" >
-                        <div class="card-body">
-                          <h5 class="card-title">23</h5>
-                          <p class="card-text">Complited Orders</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            -->
-        </div>
-    </section>
+  <section class="mt-5">
+      <div class="container">
+          <h5>Today's Collection</h5>
+      </div>
+  </section>
 
     <section class="container">
 
@@ -86,38 +48,39 @@
               <tr>
                 <th scope="col">Party </th>
                 <th scope="col">Amount</th>
-                <th scope="col">Status</th>
+                <th scope="col">Balance</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td><a href="./view.html">PS Store</a></td>
                 <td>625</td>
-                <td>Pending</td>
+                <td>1020</td>
               </tr>
               <tr>
                 <td>AP Store</td>
                 <td>825</td>
-                <td>Pending</td>
+                <td>500</td>
               </tr>
               <tr>
                 <td>Koya's Mart</td>
                 <td>140</td>
-                <td>Pending</td>
+                <td>0</td>
               </tr>
               <tr>
                 <td>TK Store</td>
                 <td>625</td>
-                <td>Pending</td>
+                <td>420</td>
               </tr>
               <tr>
                 <td>Be Fresh</td>
                 <td>625</td>
-                <td>Saled</td>
+                <td>420</td>
               </tr>
             </tbody>
           </table>
 
+          <p class="total">Total : ₹<input class="total_inp" type="number"  value="000.00" disabled></p>
 
     </section>
 
@@ -131,16 +94,10 @@
       
         <div class="container fixed-bottom">
             <div class="info_box">
-                <a type="button" class="btn btn-primary" href="./add_order.html">
-                    <p>Add Order</p>
-                </a>
-                <a type="button" class="btn btn-secondary btn-sm"  data-toggle="modal" data-target="#AddMore">
-                  <p>+</p>
-              </a>
-              
                 <a type="button" class="btn btn-success" href="./take_payment.html" >
                     <p>Take Payment</p>
                 </a>
+               
             </div>
         </div>
 
@@ -149,28 +106,7 @@
 
         
     </section>
-     <!-- Modal -->
-     <div class="modal fade" id="AddMore" tabindex="-1" role="dialog" aria-labelledby="AddMoreTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-          <div class="modal-header">
-          <h5 class="modal-title" id="AddMoreLongTitle">Add More</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-          </button>
-          </div>
-          <div class="modal-body btn_grp">
-            <button type="button" class="btn btn-outline-dark">Add Report</button>
-            <button type="button" class="btn btn-outline-dark">Add Sale</button>
-            <button type="button" class="btn btn-outline-dark">Add New Party</button>
-            
-          </div>
-          <div class="modal-footer">
-          
-          </div>
-      </div>
-      </div>
-  </div>
+   
 
     
 
